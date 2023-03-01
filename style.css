@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-body {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    /* background: linear-gradient(to top left,rgb,rgb ); */
+    background: linear-gradient(to top left, rgba(38, 179, 25, 0.692), rgba(205, 69, 242, 0.9));
+
+}
+
+.signup-box {
+    width: 300px;
+    height: 400px;
+    background-color: rgba(161, 231, 236, 0.77);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 615px;
+    box-shadow: 2px 3px 5px rgb(99, 212, 191);
+    backdrop-filter: #ffffff09;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    position: relative;
+    top: 95px;
+    color: #4267B2;
+
+
+
+}
+
+h2 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.inner-signup,
+p,
+label {
+    font-size: 1.1rem;
+    display: block;
+    color: rgb(47, 59, 59);
+    padding: 3px;
+
+
+}
+
+.inner-signup,
+p,
+input {
+
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+
+
+
+}
+
+#submit {
+    margin-top: 4px;
+    background-color: rgb(41, 136, 200);
+    color: blanchedalmond;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(121, 26, 229);
+    color: black;
+}
+
+#submit:active {
+    background-color: rgba(23, 226, 132, 0.809);
+
+}
+
+
+.forget,
+p,
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 5px;
+
+}
+
+a:hover {
+    color: rgba(145, 45, 202, 0.781);
+}
+
+#copyright {
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 50;
+    color: rgba(167, 146, 105, 0.807);
+}
